@@ -1,0 +1,53 @@
+\hypertarget{class_communication_manager}{}\doxysection{Communication\+Manager Class Reference}
+\label{class_communication_manager}\index{CommunicationManager@{CommunicationManager}}
+Inheritance diagram for Communication\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_communication_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_communication_manager_a159efd59fb2ecd6f09c223811b1271a7}\label{class_communication_manager_a159efd59fb2ecd6f09c223811b1271a7}} 
+void {\bfseries data\+Ready} ()
+\item 
+\mbox{\Hypertarget{class_communication_manager_afbcc9d7c91171c9e6746a1536f9a47f6}\label{class_communication_manager_afbcc9d7c91171c9e6746a1536f9a47f6}} 
+void {\bfseries test\+\_\+send} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_communication_manager_a5191fba2035b954648d1eacca98d3955}\label{class_communication_manager_a5191fba2035b954648d1eacca98d3955}} 
+void {\bfseries new\+Data\+Session\+Ready} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_communication_manager_acf2cc9ea3946e811387d6e5d50069b3a}\label{class_communication_manager_acf2cc9ea3946e811387d6e5d50069b3a}} 
+{\bfseries Communication\+Manager} (QObject $\ast$parent=nullptr, int session\+Buffor\+Size=100)
+\item 
+\mbox{\Hypertarget{class_communication_manager_a30e71d01531446af131b6559b822a8d2}\label{class_communication_manager_a30e71d01531446af131b6559b822a8d2}} 
+void {\bfseries set\+Port\+Configuration} (uint baud\+Rate, QSerial\+Port\+::\+Data\+Bits data\+Bits, QSerial\+Port\+::\+Parity parity, QSerial\+Port\+::\+Stop\+Bits stop\+Bits)
+\item 
+\mbox{\Hypertarget{class_communication_manager_ad41b1c74b404c10f098509b3e942f5dd}\label{class_communication_manager_ad41b1c74b404c10f098509b3e942f5dd}} 
+void {\bfseries set\+Port} (QSerial\+Port\+Info serial\+Port\+Info)
+\item 
+\mbox{\Hypertarget{class_communication_manager_aadd9fe8f9975283d7ca8068a16483ab1}\label{class_communication_manager_aadd9fe8f9975283d7ca8068a16483ab1}} 
+void {\bfseries start\+Connection} ()
+\item 
+\mbox{\Hypertarget{class_communication_manager_aead8cd2a318920dd7071520309989937}\label{class_communication_manager_aead8cd2a318920dd7071520309989937}} 
+void {\bfseries stop\+Connection} ()
+\item 
+\mbox{\Hypertarget{class_communication_manager_a0afbacceb079830dbb5193d079e7eb23}\label{class_communication_manager_a0afbacceb079830dbb5193d079e7eb23}} 
+QList$<$ QPair$<$ int, int $>$ $>$ \& {\bfseries get\+Ch1raw\+Data\+List} ()
+\item 
+\mbox{\Hypertarget{class_communication_manager_aab801d58ac815c0012bfb5a928a1b565}\label{class_communication_manager_aab801d58ac815c0012bfb5a928a1b565}} 
+QList$<$ QPair$<$ int, int $>$ $>$ \& {\bfseries get\+Ch2raw\+Data\+List} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+communicationmanager.\+h\item 
+communicationmanager.\+cpp\end{DoxyCompactItemize}
